@@ -26,6 +26,11 @@
     {
       "name": "duration",
       "type": "int"
+    },
+    {
+      "name": "rating",
+      "type": "int",
+      "default": 5
     }
   ]
 }
