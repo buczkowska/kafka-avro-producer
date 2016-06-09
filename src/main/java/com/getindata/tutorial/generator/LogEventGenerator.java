@@ -38,8 +38,8 @@ final class LogEventGenerator {
     return EVENTS[random.nextInt(EVENTS.length)];
   }
 
-  private int getRandomUserId() {
-    return random.nextInt(10000);
+  private String getRandomUserId() {
+    return String.valueOf(random.nextInt(10000));
   }
 
   private int getRandomSongId() {
