@@ -13,7 +13,7 @@
     },
     {
       "name": "userid",
-      "type": "int"
+      "type": "string"
     },
     {
       "name": "name",
